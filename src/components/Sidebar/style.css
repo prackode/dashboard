@@ -1,0 +1,89 @@
+.sidebar {
+  flex: 0 0 224px;
+}
+
+.fixed-nav {
+  position: fixed;
+  width: 224px;
+  background-color: rgba(30, 38, 64, 1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 10px 16px 10px;
+}
+
+.nav-options {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: white;
+}
+.nav-options-head {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+.head-logo {
+  height: 39px;
+  width: 39px;
+  border-radius: 4px;
+  background-color: white;
+}
+.head-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 108px;
+}
+.head-info-name {
+  font-size: 15px;
+}
+.head-info-store {
+  font-size: 13px;
+  opacity: 80%;
+  text-decoration: underline;
+}
+
+.nav-options-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+  opacity: 80%;
+}
+.nav-options-menu-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px 8px 16px;
+  border-radius: 4px;
+  gap: 12px;
+}
+
+.credit-info {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 192px;
+  padding: 6px 12px 6px 12px;
+  background-color: rgba(53, 60, 83, 1);
+}
+
+.credit-info-data {
+  display: flex;
+  gap: 2px;
+  color: rgba(255, 255, 255, 1);
+  flex-direction: column;
+}
+.credit-info-data-text {
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 80%;
+}
+.credit-info-data-value {
+  font-size: 16px;
+  font-weight: 500;
+}

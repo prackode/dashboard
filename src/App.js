@@ -1,13 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Sidebar from "./components/Sidebar/Sidebar";
+import MainContent from "./components/MainContent/MainContent";
 
 function App() {
   return (
     <div className="container">
-      <div class="main-content">Main Content</div>
-      <div class="sidebar">
-        <div className="fixed">Sidebar</div>
-      </div>
+      <Sidebar />
+      <MainContent />
     </div>
   );
 }
